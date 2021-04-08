@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: "Ubuntu";
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+form {
+    margin-left: 550px;
+    align-items: center;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 14.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1 {
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    margin-left: 640px;
+}
+
+button {
+    margin-top: 20px;
+    font-family: "Ubuntu";
+    text-align: center;
+    border-radius: 5px 5px;
+    margin-left: 39px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+#submit {
+    margin-top: 10px;
+    display: inline;
+    margin-left: 150px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.footer {
+    font-family: "Ubuntu";
+    display: block;
+    margin-left: 620px;
+    text-align: center;
+    width: 300px;
+    position: 0;
+    position: static;
+}
+
+p:hover {
+    transition: all 0.2s 0s ease;
+    color: yellow;
+}

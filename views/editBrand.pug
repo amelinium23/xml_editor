@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="pl")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Edytowanie marki
+        link(rel="stylesheet", href="/stylesheets/edit.css")
+        link(rel="shortcut icon", href="images/icon.ico", type="image/x-icon")
+    body
+    h1 Edycja marki
+    form(action=`/brandcollection/editBrand/${brand.$.id}` method="post")
+        label Wpisz nową nazwę: 
+        input#nazwa(type="text" name="nazwa" placeholder="Wpisz nazwę" value=`${brand.nazwa}` required)
+        br
+        label Wpisz nową datę założenia: 
+        input#dataZalozenia(type="text" name="dataZalozenia" placeholder="Wpisz datę założenia np.: 23.09.2020: " value=`${brand.dataZalozenia}` required)
+        br
+        label Wpisz nową siedzibę: 
+        input#siedziba(type="text" name="siedziba" placeholder="Wpisz miasto" value=`${brand.siedziba}` required)
+        br
+        label Wpisz nową kraj: 
+        input#Kraj(type="text" name="Kraj" placeholder="Wpisz kraj" value=`${brand.$.Kraj}` required)
+        br
+        label Wpisz nową udziałowców: 
+        input#udzlowcy(type="text" name="udzialowcy" placeholder="Wpisz udziałowców" value=`${brand.udzialowcy}` required)
+        br
+        label Wpisz czy marka zbankrutowała: 
+        input#bankrut(type="text" name="czyBankrut" placeholder="Wpisz tak lub nie: " value=`${brand.czyBankrut}` required)
+        br
+        label Wpisz nową liczbe sprzedanych aut: 
+        input#Ocena(type="number" min="1" name="liczbaSprzedanychAut" placeholder='Wpisz liczbe sprzedanych aut' value=`${brand.liczbaSprzedanychAut}` required)
+        br
+        label Wpisz nowy udział w rynku: 
+        input#udzialwRynku(type="text" name="udzialwRynku" placeholder="Wpisz udział w rynku np.: 2.3" value=`${brand.udzialwRynku._}` required)
+        br
+        label Zmień Ocene: 
+        input#Ocena(type="number" min="1" step="0.5" name="Ocena" placeholder='Wpisz ocene' value=`${brand.$.Ocena}` required)
+        br
+        input#modify(type="submit" value='Modyfikuj' required)

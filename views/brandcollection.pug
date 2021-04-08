@@ -1,0 +1,28 @@
+html(lang="pl")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Zadanie Projekt 5 XML
+        link(rel="stylesheet", href="stylesheets/frontPage.css")
+        link(rel="shortcut icon", href="images/icon.ico", type="image/x-icon")
+    body
+        h1 Spis marek samochodów
+        button#dodawanie(onclick="document.location.href='/brandcollection/addBrand'") Dodaj nową markę
+        .brandCollection
+            block brand
+                each brand in brands
+                    .info
+                        p Nazwa: #{brand.nazwa}
+                        p Data Założenia: #{brand.dataZalozenia}
+                        p Siedziba: #{brand.siedziba}, #{brand.$.Kraj}
+                        p Udziałowcy: #{brand.udzialowcy}
+                        p Liczba sprzedanych aut: #{brand.liczbaSprzedanychAut}
+                        p Czy firma zbankrutowała: #{brand.czyBankrut}
+                        p Udział w rynku: #{brand.udzialwRynku._}#{brand.udzialwRynku.$.jednostka}
+                        p Ocena: #{brand.$.Ocena}
+                        button(onclick=`document.location.href='/brandcollection/editBrand/${brand.$.id}'`) Edytuj markę
+                        button(onclick=`document.location.href='/brandcollection/deleteBrand/${brand.$.id}'`) Usuń markę
+        .footer
+            p Autor: Piotr Tomczak 
+            p Grupa: IS1-1 
+            p Nr Albumu: 230025

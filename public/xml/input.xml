@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Marki>
+    <Marka Ocena="3.5" id="m1" Kraj="Hiszpania">
+        <nazwa>SEAT</nazwa>
+        <dataZalozenia>09.05.1950</dataZalozenia>
+        <siedziba>Martotell</siedziba>
+        <udzialowcy>Volkswagen AG</udzialowcy>
+        <liczbaSprzedanychAut>57410000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">3.52</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m2" Kraj="Niemcy">
+        <nazwa>BMW</nazwa>
+        <dataZalozenia>07.03.1916</dataZalozenia>
+        <siedziba>Monachium</siedziba>
+        <udzialowcy>Brak</udzialowcy>
+        <liczbaSprzedanychAut>16000000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">5.78</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m3" Kraj="Włochy">
+        <nazwa>Alfa Romeo</nazwa>
+        <dataZalozenia>24.06.1910</dataZalozenia>
+        <siedziba>Turyn</siedziba>
+        <udzialowcy>Fiat Chrysler Automobiles</udzialowcy>
+        <liczbaSprzedanychAut>150722</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.30</udzialwRynku>
+    </Marka>
+    <Marka Ocena="2.5" id="m4" Kraj="Wielka Brytania">
+        <nazwa>Mini</nazwa>
+        <dataZalozenia>1969</dataZalozenia>
+        <siedziba>Farnborough</siedziba>
+        <udzialowcy>BMW</udzialowcy>
+        <liczbaSprzedanychAut/>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">1.23</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.5" id="m5" Kraj="Niemcy">
+        <nazwa>Porsche</nazwa>
+        <dataZalozenia>25.04.1931</dataZalozenia>
+        <siedziba>Stuttgart-Zuffenhausen</siedziba>
+        <udzialowcy>Volkswagen AG</udzialowcy>
+        <liczbaSprzedanychAut>301526</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">0.67</udzialwRynku>
+    </Marka>
+    <Marka Ocena="5.0" id="m6" Kraj="Wielka Brytania">
+        <nazwa>Rolls Royce</nazwa>
+        <dataZalozenia>15.03.1906</dataZalozenia>
+        <siedziba>Goodwood</siedziba>
+        <udzialowcy>BMW</udzialowcy>
+        <liczbaSprzedanychAut>5152</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">0.03</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.0" id="m7" Kraj="Szwecja">
+        <nazwa>Volvo</nazwa>
+        <dataZalozenia>14.04.1927</dataZalozenia>
+        <siedziba>Goodwood</siedziba>
+        <udzialowcy>Geely Automobile</udzialowcy>
+        <liczbaSprzedanychAut>705452</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.32</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.5" id="m8" Kraj="Niemcy">
+        <nazwa>Mercedes Benz</nazwa>
+        <dataZalozenia>1881</dataZalozenia>
+        <siedziba>Stuttgart</siedziba>
+        <udzialowcy>Daimler AG</udzialowcy>
+        <liczbaSprzedanychAut>2900000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">23.45</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m9" Kraj="USA">
+        <nazwa>Chrysler</nazwa>
+        <dataZalozenia>06.06.1925</dataZalozenia>
+        <siedziba>Auburn Hills</siedziba>
+        <udzialowcy>Fiat Chrysler Automobiles</udzialowcy>
+        <liczbaSprzedanychAut>2200000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">3.89</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.0" id="m10" Kraj="Niemcy">
+        <nazwa>Audi</nazwa>
+        <dataZalozenia>29.06.1932</dataZalozenia>
+        <siedziba>Ingolstadt</siedziba>
+        <udzialowcy>Volkswagen AG</udzialowcy>
+        <liczbaSprzedanychAut>1812500</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">5.79</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m11" Kraj="USA">
+        <nazwa>Chevrolet</nazwa>
+        <dataZalozenia>03.11.1911</dataZalozenia>
+        <siedziba>Detroit</siedziba>
+        <udzialowcy>General Motors</udzialowcy>
+        <liczbaSprzedanychAut>4760000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.37</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m12" Kraj="Japonia">
+        <nazwa>Nissan</nazwa>
+        <dataZalozenia>03.11.1911</dataZalozenia>
+        <siedziba>Nishi-ku, Yokohama</siedziba>
+        <udzialowcy>General Motors</udzialowcy>
+        <liczbaSprzedanychAut>4760000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">9.87</udzialwRynku>
+    </Marka>
+    <Marka Ocena="2.5" id="m13" Kraj="Francja">
+        <nazwa>Skoda</nazwa>
+        <dataZalozenia>18.12.1895</dataZalozenia>
+        <siedziba>Mladá Boleslav</siedziba>
+        <udzialowcy>Volkswagen AG</udzialowcy>
+        <liczbaSprzedanychAut>1253700</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">13.56</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m14" Kraj="Francja">
+        <nazwa>Peugeot</nazwa>
+        <dataZalozenia>02.11.1896</dataZalozenia>
+        <siedziba>Paryż</siedziba>
+        <udzialowcy>PSA</udzialowcy>
+        <liczbaSprzedanychAut>2119845</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">6.87</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m15" Kraj="Rumunia">
+        <nazwa>Dacia</nazwa>
+        <dataZalozenia>1966</dataZalozenia>
+        <siedziba>Mioveni, Argeș</siedziba>
+        <udzialowcy>Renault</udzialowcy>
+        <liczbaSprzedanychAut>736654</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">8.82</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m16" Kraj="Włochy">
+        <nazwa>Fiat</nazwa>
+        <dataZalozenia>11.07.1899</dataZalozenia>
+        <siedziba>Turyn</siedziba>
+        <udzialowcy>Fiat Chrysler Automobiles</udzialowcy>
+        <liczbaSprzedanychAut>1555650</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">4.12</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m17" Kraj="Francja">
+        <nazwa>Citroen</nazwa>
+        <dataZalozenia>12.11.1919</dataZalozenia>
+        <siedziba>Saint-Ouen-sur-Seine</siedziba>
+        <udzialowcy>PSA</udzialowcy>
+        <liczbaSprzedanychAut>350000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.14</udzialwRynku>
+    </Marka>
+    <Marka Ocena="1.5" id="m18" Kraj="Korea Południowa">
+        <nazwa>Daewoo</nazwa>
+        <dataZalozenia>22.03.1967</dataZalozenia>
+        <siedziba idKraju="k11">Seul</siedziba>
+        <liczbaSprzedanychAut>0</liczbaSprzedanychAut>
+        <czyBankrut>tak</czyBankrut>
+        <udzialwRynku jednostka="%">0</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.5" id="m19" Kraj="Korea Południowa">
+        <nazwa>Kia</nazwa>
+        <dataZalozenia>12.12.1944</dataZalozenia>
+        <siedziba>Seul</siedziba>
+        <udzialowcy>Hyundai</udzialowcy>
+        <liczbaSprzedanychAut>282100</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">14.32</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m20" Kraj="USA">
+        <nazwa>Ford</nazwa>
+        <dataZalozenia>16.06.1903</dataZalozenia>
+        <siedziba idKraju="k4" stan="Michigan">Dearborn</siedziba>
+        <udzialowcy>PSA</udzialowcy>
+        <liczbaSprzedanychAut>550000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">10.70</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.5" id="m21" Kraj="Wielka Brytania">
+        <nazwa>Jaguar</nazwa>
+        <dataZalozenia>26.10.1935</dataZalozenia>
+        <siedziba>Whitley</siedziba>
+        <udzialowcy>Land Rover</udzialowcy>
+        <liczbaSprzedanychAut>174560</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">3.68</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m22" Kraj="Japonia">
+        <nazwa>Honda</nazwa>
+        <dataZalozenia>07.03.1916</dataZalozenia>
+        <siedziba>Tokyo</siedziba>
+        <udzialowcy>JTSB</udzialowcy>
+        <liczbaSprzedanychAut>479000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">8.47</udzialwRynku>
+    </Marka>
+    <Marka Ocena="2.5" id="m23" Kraj="Korea Południowa">
+        <nazwa>Hyundai</nazwa>
+        <dataZalozenia>29.12.1967</dataZalozenia>
+        <siedziba>Seul</siedziba>
+        <udzialowcy>Hyundai Motor Group</udzialowcy>
+        <liczbaSprzedanychAut>4858000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">12.67</udzialwRynku>
+    </Marka>
+    <Marka Ocena="2.5" id="m24" Kraj="USA">
+        <nazwa>Jeep</nazwa>
+        <dataZalozenia>17.07.1945</dataZalozenia>
+        <siedziba idKraju="k4" stan="Ohio">Toledo</siedziba>
+        <udzialowcy>Chrysler</udzialowcy>
+        <liczbaSprzedanychAut>149000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">5.34</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.5" id="m25" Kraj="Wielka Brytania">
+        <nazwa>Land Rover</nazwa>
+        <dataZalozenia>17.09.1948</dataZalozenia>
+        <siedziba>Solihull</siedziba>
+        <liczbaSprzedanychAut>94736</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">1.23</udzialwRynku>
+    </Marka>
+    <Marka Ocena="2.5" id="m26" Kraj="Niemcy">
+        <nazwa>Opel</nazwa>
+        <dataZalozenia>21.01.1862</dataZalozenia>
+        <siedziba>Rüsselsheim am Main</siedziba>
+        <udzialowcy>PSA</udzialowcy>
+        <liczbaSprzedanychAut>120000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.45</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.0" id="m27" Kraj="Włochy">
+        <nazwa>Maserati</nazwa>
+        <dataZalozenia>01.12.1914</dataZalozenia>
+        <siedziba>Modema</siedziba>
+        <udzialowcy>Fiat Chrysler Automobiles</udzialowcy>
+        <liczbaSprzedanychAut>75000</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">1.32</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.5" id="m28" Kraj="Japonia">
+        <nazwa>Toyota</nazwa>
+        <dataZalozenia>28.08.1937</dataZalozenia>
+        <siedziba>Toyota City</siedziba>
+        <udzialowcy>Daimler AG</udzialowcy>
+        <liczbaSprzedanychAut>5239419</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">15.67</udzialwRynku>
+    </Marka>
+    <Marka Ocena="3.0" id="m29" Kraj="Japonia">
+        <nazwa>Suzuki</nazwa>
+        <dataZalozenia>06.06.1925</dataZalozenia>
+        <siedziba>Hamamatsu</siedziba>
+        <liczbaSprzedanychAut>260383</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">12.24</udzialwRynku>
+    </Marka>
+    <Marka Ocena="4.0" id="m30" Kraj="USA">
+        <nazwa>Tesla</nazwa>
+        <dataZalozenia>01.07.2003</dataZalozenia>
+        <siedziba>Palo Alto</siedziba>
+        <udzialowcy/>
+        <liczbaSprzedanychAut>367500</liczbaSprzedanychAut>
+        <czyBankrut>nie</czyBankrut>
+        <udzialwRynku jednostka="%">2.31</udzialwRynku>
+    </Marka>
+</Marki>

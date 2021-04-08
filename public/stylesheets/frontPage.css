@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: "Ubuntu";
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.info:hover {
+    background: linear-gradient(to center, #141e30, #243b55);
+}
+
+.brandCollection {
+    display: grid;
+    grid-template-columns: 2;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+    box-shadow: 2.5px 2.5px 15px 2.5px rgba(181,174,174,1);
+    display: block;
+    width: 300px;
+    border: 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.4s 0s ease;
+}
+
+h1 {
+    display: block;
+    font-size: 45px;
+    font-family: "Ubuntu";
+    color: white;
+    margin-left: 500px;
+}
+
+#dodawanie {
+    margin-left: 660px;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Ubuntu";
+    color: white;
+    text-align: center;
+}
+
+p:hover {
+    transition: all 0.2s 0s ease;
+    color: yellow;
+}
+
+button {
+    margin-top: 20px;
+    font-family: "Ubuntu";
+    text-align: center;
+    border-radius: 5px 5px;
+    margin-left: 39px;
+    margin-bottom: 20px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    display: block;
+    position: 0;
+    position: static;
+    color: lightgoldenrodyellow;
+    font-family: "Ubuntu";
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}

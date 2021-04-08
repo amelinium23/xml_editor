@@ -1,0 +1,19 @@
+doctype html
+html(lang="pl")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/stylesheets/input.css")
+        link(rel="shortcut icon", href="images/icon.ico", type="image/x-icon")
+        title Zadanie Projekt 5 XML
+    body
+        h1= title
+        form(action='/brandCollection' method='post')
+            label(for="fname") Wpisz nazwę pliku:
+            input#fname(type="text" name="fname" placeholder="Click me Daddy!")
+            br
+            input#submit(type="submit" value="Submit")
+        .footer
+            p Autor: Piotr Tomczak 
+            p Grupa: IS1-1 
+            p Nr Albumu: 230025

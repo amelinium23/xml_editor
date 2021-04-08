@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="pl")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/stylesheets/add.css")
+        link(rel="shortcut icon", href="images/icon.ico", type="image/x-icon")
+        title Dodaj nową marke
+    body
+    h1 Dodawanie marki
+    form(action='/brandcollection/addBrand' method='post')
+        label Wpisz nazwę: 
+        input#nazwa(type="text" name="nazwa" placeholder="Wpisz nazwę" required)
+        br
+        label Wpisz datę założenia: 
+        input#dataZalozenia(type="text" name="dataZalozenia" placeholder="Wpisz datę założenia np.: 23.09.2020: " required)
+        br
+        label Wpisz siedzibę: 
+        input#siedziba(type="text" name="siedziba" placeholder="Wpisz miasto" required)
+        br
+        label Wpisz kraj: 
+        input#Kraj(type="text" name="Kraj" placeholder="Wpisz kraj" required)
+        br
+        label Wpisz udziałowców: 
+        input#udzlowcy(type="text" name="udzialowcy" placeholder="Wpisz udziałowców" required)
+        br
+        label Wpisz czy marka zbankrutowała: 
+        input#bankrut(type="text" name="czyBankrut" placeholder="Wpisz tak lub nie: " required)
+        br
+        label Wpisz liczbe sprzedanych aut: 
+        input#Ocena(type="number" min="1" name="liczbaSprzedanychAut" placeholder='Wpisz liczbe sprzedanych aut' required)
+        br
+        label Wpisz udział w rynku: 
+        input#udzialwRynku(type="text" name="udzialwRynku" placeholder="Wpisz udział w rynku np.: 2.3" required)
+        br
+        label Oceń markę: 
+        input#Ocena(type="number" min="1" step="0.5" name="Ocena" placeholder='Wpisz ocene' required)
+        br
+        input#submit(type="submit" value='Dodaj')

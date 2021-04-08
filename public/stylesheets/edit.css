@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: "Ubuntu";
+    color: white;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+form {
+    margin-left: 10px;
+}
+
+h1 {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    margin-left: 660px;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 14.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Ubuntu";
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#modify {
+    display: inline;
+    margin-left: 10px;
+    width: 120px;
+    font-weight: bold;
+}
